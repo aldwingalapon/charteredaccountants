@@ -257,9 +257,20 @@ label .required {color:red;}
 .content-container .main-content table{width:100%; margin-bottom: 1rem;}
 .content-container .main-content table  thead{background-color: #FFF; color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 13px;}
 .content-container .main-content table th:not(:first-child){border-left: 1px solid #DDE3E6;}
-.content-container .main-content table th{padding: 1rem;}
+.content-container .main-content table th, .content-container .main-content table td{padding: 1rem;}
 .content-container .main-content table.program th.enroll{background-image: url(images/enrolled_programs@3x.png); background-repeat: no-repeat; background-position: 1.75rem .5rem; background-size: 1.75rem; padding-left: 4.5rem;}
 .content-container .main-content table.program th.status{text-align: center; width: 160px;}
+.content-container .main-content table.program tbody tr{border: 1px solid #DDE3E6;}
+.content-container .main-content table.program tbody tr:nth-child(odd){background-color:#FFF;}
+.content-container .main-content table.program tbody tr:nth-child(even){background-color:#FCFCFC;}
+.content-container .main-content table.program tbody tr td:first-child{background-image: url(images/list@3x.png); background-repeat: no-repeat; background-position: 1.75rem 1.5rem; background-size: 1.25rem; padding-left: 4.25rem;}
+.content-container .main-content table.program tbody tr td:last-child{text-align: center;}
+.content-container .main-content table.program tbody tr td{color: #111111; font-family: 'Nexa Bold'; font-size: 13px; vertical-align:middle;}
+.content-container .main-content table.program tbody tr td .diploma{clear: both; display: inherit; color: #FFF; font-family: 'Nexa Bold'; font-size: 10px; text-transform: uppercase; padding: 4px 12px; background-color: #CDCDCD;}
+.content-container .main-content table.program tbody tr td .btn{border: none; border-radius: 30px; font-family: 'Nexa Regular'; font-size: 10px; color: #FFF;}
+.content-container .main-content table.program tbody tr td .btn:hover, .content-container .main-content table.program tbody tr td .btn:focus, .content-container .main-content table.program tbody tr td .btn:active{opacity:0.7;}
+.content-container .main-content table.program tbody tr td .btn.in-progress{background-color: #B7BF10;}
+.content-container .main-content table.program tbody tr td .btn.stop{background-color: #D22630;}
 .content-container .main-content table.cpd-cpe th.my-cpd-cpe{background-image: url(images/my_cpd@3x.png); background-repeat: no-repeat; background-position: 1.75rem .5rem; background-size: 1.75rem; padding-left: 4.5rem;}
 .content-container .main-content h2{color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 16px;}
 

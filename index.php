@@ -14,6 +14,30 @@
 						</tr>
 					</thead>
 					<tbody>
+						<tr>
+							<td>Learn HTML5 Programming From Scratch<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default in-progress">in progress</button></td>
+						</tr>
+						<tr>
+							<td>Java tutorial for complete beginners<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default stop">stop</button></td>
+						</tr>
+						<tr>
+							<td>The ultimate phython programming tutorial<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default in-progress">in progress</button></td>
+						</tr>
+						<tr>
+							<td>Learn HTML5 Programming From Scratch<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default stop">stop</button></td>
+						</tr>
+						<tr>
+							<td>Java tutorial for complete beginners<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default in-progress">in progress</button></td>
+						</tr>
+						<tr>
+							<td>Learn HTML5 Programming From Scratch<span class="diploma">Graduate Diploma of HTML5</span></td>
+							<td><button type="button" class="btn btn-default in-progress">in progress</button></td>
+						</tr>
 					</tbody>
 				</table>
 
