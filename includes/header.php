@@ -55,8 +55,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
 <body>
-	<header id="main-header">
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<header id="main-header" class="row-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top col-md-12" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<div id="navbar-toggle-icon" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
