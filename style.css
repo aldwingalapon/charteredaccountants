@@ -254,14 +254,14 @@ label .required {color:red;}
     color: #fff;
 }
 .ribbon {
- font-size: 14px !important;
+ font-size: 13px !important;
  width: 80%;  
- height: 42px; 
+ height: 38px; 
  position: relative;
  background: #8ccce7;
  color: #006187;
  text-align: center;
- padding: 15px 5px; /* Adjust to suit */
+ padding: 10px 5px; /* Adjust to suit */
  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 .ribbon:before, .ribbon:after {
@@ -316,10 +316,14 @@ label .required {color:red;}
     color: #fff;
     text-transform: uppercase;
     font-family: 'Nexa Heavy';
+    padding-left: 45px;
   }
 }
 .list-group-item{
-    background: #039fdc;
+    background: #039fdc!important;
+}
+.list-group-item li:hover{
+    background: #000;
 }
 .list-group-item li a{
     font-family: 'Nexa Regular'!important;
@@ -329,7 +333,7 @@ label .required {color:red;}
 }
 .sidebar-nav .navbar li a:hover{
     color: #fff;
-    background: #039fdc;
+    background-color: #039fdc;
     font-weight: normal;
 }
 .left-sidebar .dropdown-menu{
@@ -346,3 +350,9 @@ label .required {color:red;}
     background: #039fdc;
     color: #fff;
 }
+.nav-button-dash a{ background:url("images/dashboard.png") no-repeat 10px 12px transparent;}
+.nav-button-dash li a:hover{ background:url("images/dashboard.png") no-repeat 10px 12px transparent;}
+.nav-button-enrolled a { background:url("images/enrolled-programs.png") no-repeat 10px 18px transparent;}
+.nav-button-activity a { background:url("images/activity.png") no-repeat 10px 20px transparent;}
+.nav-button-cases a { background:url("images/cases.png") no-repeat 10px 13px transparent;}
+.nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent;}
