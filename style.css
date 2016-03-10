@@ -268,7 +268,7 @@ label .required {color:red;}
 .content-container .main-content table.program tbody tr td:first-child{background-image: url(images/list@3x.png); background-repeat: no-repeat; background-position: 1.75rem 1.5rem; background-size: 1.25rem; padding-left: 4.25rem;}
 .content-container .main-content table.program tbody tr td:last-child{text-align: center;}
 .content-container .main-content table.program tbody tr td{padding: 0.75rem 1rem;}
-.content-container .main-content table.program tbody tr td .diploma{clear: both; display: inherit; color: #FFF; font-family: 'Nexa Bold'; font-size: 10px; text-transform: uppercase; padding: 2px 12px; background-color: #CDCDCD;}
+.content-container .main-content table.program tbody tr td .diploma{cursor:pointer; clear: both; display: inherit; color: #FFF; font-family: 'Nexa Bold'; font-size: 10px; text-transform: uppercase; padding: 2px 12px; background-color: #CDCDCD;}
 .content-container .main-content table.program tbody tr td .btn{border: none; border-radius: 30px; font-family: 'Nexa Regular'; font-size: 10px; color: #FFF;}
 .content-container .main-content table.program tbody tr td .btn:hover, .content-container .main-content table.program tbody tr td .btn:focus, .content-container .main-content table.program tbody tr td .btn:active{opacity:0.7;}
 .content-container .main-content table.program tbody tr td .btn.in-progress{background-color: #B7BF10;}
