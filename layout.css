@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
-	#main-header .navbar.navbar-default .navbar-nav-main.nav{margin-left:3rem;}
+	#main-header .navbar.navbar-default .navbar-nav-main.nav{margin-left:2.5rem;}
+	#main-header .navbar.navbar-default .navbar-form{margin-left:3.5rem;}
 	#main-header .navbar.navbar-default .navbar-nav-main.nav, #main-header .navbar.navbar-default .navbar-form{padding: 1rem 0;}
 	#main-header .navbar.navbar-default .navbar-right{padding:1.5rem 0; margin-right:0;}
+	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin-top: 2.5rem;}
 }

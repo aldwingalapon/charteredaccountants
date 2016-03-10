@@ -75,18 +75,19 @@
 					</ul>
 					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
-							<input type="text" class="form-control search-form" placeholder="Search">
+							<input type="text" class="form-control search-form" placeholder="Search...">
+							<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
 						</div>
 					</form>					
 					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown">
 						<li class="dropdown"><a href="#" id="profile-btn" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title=""><img class="menu-avatar" src="images/avatar.png"></a>
-							<ul class="dropdown-menu">
-								<li>Joshua Bretag <span class="email">joshua.bretag@gmail.com</span></li>
-								<li><a href="#">Members</a></li>
-								<li><a href="#">Candidates</a></li>
-								<li><a href="#">Students</a></li>
-								<li><a href="#">Settings</a></li>
-								<li><a href="#">Logout</a></li>
+							<ul class="dropdown-menu" id="account-dropdown">
+								<li class="account">Joshua Bretag <span class="email">joshua.bretag@gmail.com</span></li>
+								<li class="member"><a href="#">Members</a></li>
+								<li class="candidate"><a href="#">Candidates</a></li>
+								<li class="student"><a href="#">Students</a></li>
+								<li class="setting"><a href="#">Settings</a></li>
+								<li class="logout"><a href="#">Logout</a></li>
 							</ul>
 						</li>
 					</ul>
