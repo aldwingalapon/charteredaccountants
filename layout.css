@@ -6,8 +6,8 @@
 	#main-header .navbar.navbar-default form button{font-size: 14px;}
 	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-size: 12px;}
 	#main-header .navbar.navbar-default .navbar-right{padding:1.5rem 0; margin-right:0;}
-	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin: 2.25rem 0 0 0 !important;}
-	#main-header .navbar.navbar-default .navbar-right>li>a{margin-right:1rem;}
+	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin:2.25rem -0.8rem 0 0 !important;}
+	#main-header .navbar.navbar-default .navbar-right>li>a{}
 }
 
 @media (max-width: 1279px) {

@@ -6,7 +6,28 @@
 				<?php include("includes/sidebar.php");?>
 			</div>
 			<div class="col-md-10 main-content">
-				<h1>Main Content Here</h1>
+				<table class="program">
+					<thead>
+						<tr>
+							<th class="enroll">my enrolled programs</th>
+							<th class="status">status</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+
+				<table class="cpd-cpe">
+					<thead>
+						<tr>
+							<th class="my-cpd-cpe">my cpd / cpe</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				
+				<h2>my education records</h2>
 			</div>
 			<div class="clearfix">
 			</div>
