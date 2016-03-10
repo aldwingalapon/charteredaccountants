@@ -38,6 +38,7 @@
 	.c-hamburger{display:none;}
 	#user-dropdown{display:block;}
 	#user-dropdown-767{display:none;}
+	.content-container .row-fluid [class*="col-"] {float: none; display: table-cell; vertical-align: top;}
 }
 
 @media (max-width: 768px){
