@@ -21,12 +21,13 @@
 
 				function updateContentMargins() {
 					$('div.content-container').each(function () {
-						$(this).css({
-							'margin-top': ($("#main-header .navbar.navbar-default").outerHeight())
-						});
+						if (!$('#navbar.navbar-collapse').hasClass("in")) {
+							$(this).css({
+								'margin-top': ($("#main-header .navbar.navbar-default").outerHeight())
+							});
+						}
 					});
 				}
-
 			});			
 		});
 		(function() {
@@ -44,7 +45,6 @@
 					} else{
 						this.classList.add("is-active");
 					}
-					
 				});
 			}
 		})();		

@@ -87,6 +87,14 @@
 							</ul>
 						</li>
 					</ul>
+					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown-767">
+						<li class="account"><img class="menu-avatar" src="images/avatar.png">Joshua Bretag <span class="email"><i class="fa fa-envelope gray"></i> joshua.bretag@gmail.com</span></li>
+						<li class="member" title="Members"><a href="#">Members</a></li>
+						<li class="candidate" title="Candidates"><a href="#">Candidates</a></li>
+						<li class="student" title="Students"><a href="#">Students</a></li>
+						<li class="setting" title="Settings"><a href="#">Settings</a></li>
+						<li class="logout" title="Logout"><a href="#">Logout</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="clearfix"></div>

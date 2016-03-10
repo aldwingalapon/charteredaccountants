@@ -229,7 +229,9 @@ label .required {color:red;}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.logout a{background-image: url(images/logout@3x.png);}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.logout:hover a{background-image: url(images/logout@3x-white.png);}
 
-.c-hamburger {position: relative; float:right; overflow: hidden; margin: 0; padding: 1.75rem 0; width: 22px; height: 22px; font-size: 0; text-indent: -9999px; appearance: none; box-shadow: none; border-radius: none; border: none; cursor: pointer; transition: background 0.3s;background-color:transparent;z-index:9999;}
+#main-header .navbar.navbar-default.navbar-fixed-bottom .navbar-collapse, #main-header .navbar.navbar-default.navbar-fixed-top .navbar-collapse{max-height:100%;}
+
+.c-hamburger {position: relative; float:right; overflow: hidden; margin: 0; padding:2.5rem 0; width: 22px; height: 22px; font-size: 0; text-indent: -9999px; appearance: none; box-shadow: none; border-radius: none; border: none; cursor: pointer; transition: background 0.3s;background-color:transparent;z-index:9999;}
 .c-hamburger:focus {outline: none;}
 .c-hamburger span {display: block; position: absolute; height: 1px; width:100%; background: #58595b;}
 .c-hamburger span::before, .c-hamburger span::after {position: absolute; display: block; left: 0; width: 100%; height: 1px; background-color: #58595b; content: "";}
