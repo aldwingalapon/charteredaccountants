@@ -244,7 +244,7 @@ label .required {color:red;}
 /*----------------------------------------------*/
 /* Footer */
 /*----------------------------------------------*/
-#main-footer{color: #555; background-image: url(images/footer-bg.png); background-repeat: repeat-x; padding: 2rem 0;}
+#main-footer{color: #555; background-image: url(images/footer-bg.png); background-repeat: repeat-x; margin-top: -5px; padding: 2rem 0;}
 #main-footer .copyright{font-size:12px;line-height:1.2;}
 #main-footer .copyright p {height: 3rem; vertical-align: middle; display: table-cell; width: 100%;}
 #main-footer .copyright p span{cursor:pointer;border-bottom: 1px solid #555555;}
