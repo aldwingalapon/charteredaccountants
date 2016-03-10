@@ -252,11 +252,12 @@ label .required {color:red;}
 /*----------------------------------------------*/
 /* Content */
 /*----------------------------------------------*/
-.content-container {margin:0; padding:0;}
+.content-container {margin:0; padding:0 0 4rem 0;}
 .content-container .main-content{padding: 2rem;}
 .content-container .main-content table{width:100%; margin-bottom: 1rem;}
 .content-container .main-content table  thead{background-color: #FFF; color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 13px;}
 .content-container .main-content table th:not(:first-child){border-left: 1px solid #DDE3E6;}
+.content-container .main-content table th{line-height:1.2;}
 .content-container .main-content table th, .content-container .main-content table td{padding: 1rem;}
 .content-container .main-content table tbody tr{border: 1px solid #DDE3E6;}
 .content-container .main-content table tbody tr:nth-child(odd){background-color:#FFF;}
@@ -280,7 +281,7 @@ label .required {color:red;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record{display:table; color: #FFF; font-family: 'Nexa Bold'; text-transform: uppercase; font-size: 11px; float: right; vertical-align:middle;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record i{display: table-cell; font-size: 16px; vertical-align: middle; padding-right: 8px;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record span.caption{display: table-cell; vertical-align: middle;}
-.content-container .main-content h2{color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 16px;}
+.content-container .main-content h2{color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 16px; padding-top: 1rem; margin-bottom: 1rem;}
 
 /*----------------------------------------------*/
 /* Homepage */

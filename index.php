@@ -58,6 +58,52 @@
 				</table>
 				
 				<h2>my education records</h2>
+				<table class="education">
+					<thead>
+						<tr>
+							<th>Event/course name</th>
+							<th>date commenced</th>
+							<th>manually<br>added</th>
+							<th>cpd/cpe<br>hours</th>
+							<th>specialist<br>hours type</th>
+							<th>specialist hours code</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Event 1</td>
+							<td>9/03/2016</td>
+							<td></td>
+							<td>1.00</td>
+							<td>Informal</td>
+							<td>Type B- Registered Trustee in Bankrptcy</td>
+						</tr>
+						<tr>
+							<td>Event 2</td>
+							<td>9/03/2016</td>
+							<td></td>
+							<td>2.33</td>
+							<td>Informal</td>
+							<td>Type B- Registered Trustee in Bankrptcy</td>
+						</tr>
+						<tr>
+							<td>Event 3</td>
+							<td>9/03/2016</td>
+							<td></td>
+							<td>4.55</td>
+							<td>Informal</td>
+							<td>Type B- Registered Trustee in Bankrptcy</td>
+						</tr>
+						<tr>
+							<td>Event 4</td>
+							<td>9/03/2016</td>
+							<td></td>
+							<td>6.03</td>
+							<td>Informal</td>
+							<td>Type B- Registered Trustee in Bankrptcy</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 			<div class="clearfix">
 			</div>
