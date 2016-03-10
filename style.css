@@ -228,3 +228,111 @@ label .required {color:red;}
 #main-footer .copyright{font-size:12px;line-height:1.2;}
 #main-footer .copyright p {height: 3rem; vertical-align: middle; display: table-cell; width: 100%;}
 #main-footer .copyright p span{cursor:pointer;border-bottom: 1px solid #555555;}
+
+/*----------------------------------------------*/
+/* Siderbar */
+/*----------------------------------------------*/
+#left-sidebar{
+    background: #0496cf;
+}
+.avatar{
+    margin: 0 auto;
+    text-align: center;
+}
+.avatar h1{
+    font-family: nexabold;
+    color: #fff;
+}
+.ribbon {
+ font-size: 14px !important;
+ width: 80%;  
+ height: 42px; 
+ position: relative;
+ background: #8ccce7;
+ color: #006187;
+ text-align: center;
+ padding: 15px 5px; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ top: 0;
+ border: 1.5em solid #8ccce7;
+ z-index: 1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+    background: #00a4e4;
+  }
+  .sidebar-nav:active{background: #039fdc;}
+  .sidebar-nav .navbar ul {
+    float: none;
+    border-radius: 0px!important
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Nexa Heavy';
+  }
+}
+.list-group-item{
+    background: #039fdc;
+}
+.list-group-item li a{
+    font-family: 'Nexa Regular'!important;
+}
+.sidebar-nav .navbar{
+    border-radius: 0px;
+}
+.sidebar-nav .navbar li a:hover{
+    color: #fff;
+    background: #039fdc;
+    font-weight: normal;
+}
+.left-sidebar .dropdown-menu{
+    background: #039fdc;
+}
+.left-sidebar, .navbar-default,
+.sidebar-nav .navbar li a{
+    border: 1px solid #07adee;
+}
+.left-sidebar,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+    background: #039fdc;
+    color: #fff;
+}
