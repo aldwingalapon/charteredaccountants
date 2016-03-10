@@ -48,7 +48,6 @@
 	<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192" />
 	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="noimageindex, noodp, noydir" />
@@ -56,3 +55,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
 <body>
+	<header id="main-header">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div id="navbar-toggle-icon" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</div>				
+					<a class="navbar-brand" href="/charteredaccountants/"><img alt="Brand" src="images/logo.png" alt="Chartered Accountants" title="Chartered Accountants"></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-nav-main navbar-left">
+						<li><a href="#" title="Chartered Accountants">Chartered Accountants</a></li>
+						<li><a href="#" title="Training">Training</a></li>
+						<li><a href="#" title="Industry Topics">Industry Topics</a></li>
+						<li><a href="#" title="New Media">New Media</a></li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+					</form>					
+					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown">
+						<li class="dropdown"><a href="#" id="profile-btn" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title=""><img class="menu-avatar" src="images/avatar.png"></a>
+							<ul class="dropdown-menu">
+								<li></li>
+								<li><a href="#">Members</a></li>
+								<li><a href="#">Candidates</a></li>
+								<li><a href="#">Students</a></li>
+								<li><a href="#">Settings</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</nav>
+	</header>
