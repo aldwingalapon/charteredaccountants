@@ -73,7 +73,7 @@
 						<tr>
 							<td>Event 1</td>
 							<td>9/03/2016</td>
-							<td></td>
+							<td><input type="checkbox" checked></td>
 							<td>1.00</td>
 							<td>Informal</td>
 							<td>Type B- Registered Trustee in Bankrptcy</td>
@@ -81,7 +81,7 @@
 						<tr>
 							<td>Event 2</td>
 							<td>9/03/2016</td>
-							<td></td>
+							<td><input type="checkbox"></td>
 							<td>2.33</td>
 							<td>Informal</td>
 							<td>Type B- Registered Trustee in Bankrptcy</td>
@@ -89,7 +89,7 @@
 						<tr>
 							<td>Event 3</td>
 							<td>9/03/2016</td>
-							<td></td>
+							<td><input type="radio" checked></td>
 							<td>4.55</td>
 							<td>Informal</td>
 							<td>Type B- Registered Trustee in Bankrptcy</td>
@@ -97,7 +97,7 @@
 						<tr>
 							<td>Event 4</td>
 							<td>9/03/2016</td>
-							<td></td>
+							<td><input type="radio"></td>
 							<td>6.03</td>
 							<td>Informal</td>
 							<td>Type B- Registered Trustee in Bankrptcy</td>
