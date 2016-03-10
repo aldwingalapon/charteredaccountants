@@ -59,11 +59,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top col-md-12" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<div id="navbar-toggle-icon" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</div>				
+					<button type="button" class="c-hamburger c-hamburger--htx" data-toggle="collapse" data-target="#navbar"><span>toggle menu</span></button>
 					<a class="navbar-brand" href="/charteredaccountants/"><img alt="Brand" src="images/logo.png" alt="Chartered Accountants" title="Chartered Accountants"></a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
