@@ -210,6 +210,16 @@ label .required {color:red;}
 #main-header .navbar.navbar-default .navbar-right a#profile-btn{padding:0;}
 #main-header .navbar.navbar-default .navbar-right a#profile-btn img{border-radius:100%;}
 #main-header .navbar.navbar-default .navbar-right>.open>a{background-color:transparent;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu {border: none;  box-shadow: none;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu:before{content: ""; position: absolute; right: 12px; top: -18px; width: 0; height: 0; border-style: solid; border-width: 0 18px 18px 18px; border-color: transparent transparent #FFF transparent; z-index: 9999;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu:after{content: ""; position: absolute; right: 12px; top: -18px; width: 0; height: 0; border-style: solid; border-width: 0 18px 18px 18px; border-color: transparent transparent #CCC transparent; z-index: 9990;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li{padding:0;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.account, #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li a{padding: 10px 20px; line-height: 1.1; font-family: 'Nexa Bold'; text-transform: uppercase; font-size: 12px; color: #555555;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.account .email{display:block;text-transform:lowercase;} 
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.account .email .gray{color:#CCC;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li a{background-color:#F7F9FA;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li a:hover, #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li:hover a{color:#FFF; background-color:#00A4E4;}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li:not(:last-child){border-bottom: 1px solid #EEEEEE;}
 
 /*----------------------------------------------*/
 /* Content */
