@@ -221,10 +221,15 @@ label .required {color:red;}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li a:hover, #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li:hover a{color:#FFF; background-color:#00A4E4;}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li:not(:last-child){border-bottom: 1px solid #EEEEEE;}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.member a{background-image: url(images/member@3x.png);}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.member:hover a{background-image: url(images/member@3x-white.png);}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.candidate a{background-image: url(images/candidate@3x.png);}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.candidate:hover a{background-image: url(images/candidate@3x-white.png);}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.student a{background-image: url(images/students@3x.png);}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.student:hover a{background-image: url(images/students@3x-white.png);}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.setting a{background-image: url(images/Dashboard@3x.png);}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.setting:hover a{background-image: url(images/Dashboard@3x-white.png);}
 #main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.logout a{background-image: url(images/logout@3x.png);}
+#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu li.logout:hover a{background-image: url(images/logout@3x-white.png);}
 
 /*----------------------------------------------*/
 /* Content */
