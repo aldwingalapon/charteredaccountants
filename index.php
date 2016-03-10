@@ -48,6 +48,12 @@
 						</tr>
 					</thead>
 					<tbody>
+						<tr>
+							<td>Total CPD/CPE hours logged: <span class="count">15</span><button type="button" class="btn btn-default add-record"><i class="fa fa-plus-circle"></i> <span class="caption">add education record</span></button></td>
+						</tr>
+						<tr>
+							<td>Total CPD/CPE hours logged: <span class="count">15</span><button type="button" class="btn btn-default add-record"><i class="fa fa-plus-circle"></i> <span class="caption">add education record</span></button></td>
+						</tr>
 					</tbody>
 				</table>
 				
