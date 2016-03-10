@@ -81,7 +81,7 @@
 					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown">
 						<li class="dropdown"><a href="#" id="profile-btn" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title=""><img class="menu-avatar" src="images/avatar.png"></a>
 							<ul class="dropdown-menu">
-								<li></li>
+								<li>Joshua Bretag <span class="email">joshua.bretag@gmail.com</span></li>
 								<li><a href="#">Members</a></li>
 								<li><a href="#">Candidates</a></li>
 								<li><a href="#">Students</a></li>

@@ -26,18 +26,7 @@ F7F9FA
 /*----------------------------------------------*/
 /* Extra fonts */
 /*----------------------------------------------*/
-@font-face {
-    font-family: 'Nexa Black';
-    src: url('fonts/fontfabric_-_nexablack-webfont.eot');
-    src: url('fonts/fontfabric_-_nexablack-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/fontfabric_-_nexablack-webfont.woff2') format('woff2'),
-         url('fonts/fontfabric_-_nexablack-webfont.woff') format('woff'),
-         url('fonts/fontfabric_-_nexablack-webfont.ttf') format('truetype'),
-         url('fonts/fontfabric_-_nexablack-webfont.svg#nexa_blackregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@font-face {font-family: 'Nexa Black'; src: url('fonts/fontfabric_-_nexablack-webfont.eot'); src: url('fonts/fontfabric_-_nexablack-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/fontfabric_-_nexablack-webfont.woff2') format('woff2'), url('fonts/fontfabric_-_nexablack-webfont.woff') format('woff'), url('fonts/fontfabric_-_nexablack-webfont.ttf') format('truetype'), url('fonts/fontfabric_-_nexablack-webfont.svg#nexa_blackregular') format('svg'); font-weight: normal; font-style: normal;}
 @font-face {
     font-family: 'Nexa Black Italic';
     src: url('fonts/fontfabric_-_nexa-black-italic-webfont.eot');
@@ -196,9 +185,9 @@ F7F9FA
 /*----------------------------------------------*/
 /* Base */
 /*----------------------------------------------*/
-* {-moz-box-sizing: border-box; box-sizing: border-box;}
+* {-moz-box-sizing: border-box; box-sizing: border-box;margin:0;}
 html {width: 100%; overflow-x: hidden; -webkit-tap-highlight-color: transparent;}
-body, html {background-color:#F7F9FA;font-size: 16px; font-weight: 300; line-height: 1.7; -webkit-font-smoothing: antialiased;}
+body, html {background-color:#F7F9FA; font-family: 'Nexa Regular'; font-size: 16px; font-weight: 300; line-height: 1.7; -webkit-font-smoothing: antialiased;height:100%;}
 img, article img, aside img, header img, section img, img[class*="align"] {max-width: 100%;}
 img, article img, aside img, header img, section img, img[class*="align"] {height: auto;}
 label .required {color:red;}
@@ -214,6 +203,7 @@ label .required {color:red;}
 /*----------------------------------------------*/
 /* Content */
 /*----------------------------------------------*/
+#page-content {min-height: 80%;margin:0;padding:0;}
 
 /*----------------------------------------------*/
 /* Homepage */
@@ -223,3 +213,7 @@ label .required {color:red;}
 /*----------------------------------------------*/
 /* Footer */
 /*----------------------------------------------*/
+#main-footer{color: #555; background-image: url(images/footer-bg.png); background-repeat: repeat-x; padding: 2rem 0;}
+#main-footer .copyright{font-size:12px;line-height:1.2;}
+#main-footer .copyright p {height: 3rem; vertical-align: middle; display: table-cell; width: 100%;}
+#main-footer .copyright p span{border-bottom: 1px solid #555555;}
