@@ -94,4 +94,5 @@
 			</div>
 			<div class="clearfix"></div>
 		</nav>
+		<div class="clearfix"></div>
 	</header>
