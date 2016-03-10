@@ -75,7 +75,7 @@
 					</ul>
 					<form class="navbar-form navbar-left" role="search">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Search">
+							<input type="text" class="form-control search-form" placeholder="Search">
 						</div>
 					</form>					
 					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown">

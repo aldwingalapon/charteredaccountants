@@ -22,7 +22,7 @@
 				function updateContentMargins() {
 					$('div.content-container').each(function () {
 						$(this).css({
-							'margin-top': ($("#main-header .navbar.navbar-default").outerHeight()),
+							'margin-top': ($("#main-header .navbar.navbar-default").outerHeight() + 10),
 							'margin-bottom': ($("#main-footer").outerHeight())
 						});
 					});

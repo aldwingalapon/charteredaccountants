@@ -200,8 +200,14 @@ label .required {color:red;}
 /* Header */
 /*----------------------------------------------*/
 #main-header{}
-
-
+#main-header .navbar.navbar-default{background-color: #FFF; border-color: transparent;}
+#main-header .navbar.navbar-default .navbar-brand{height:auto;}
+#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 13px; color: #58595b !important;}
+#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a:hover, #main-header .navbar.navbar-default .navbar-nav-main.nav>li:hover>a{background-color:#F7F9FA;}
+#main-header .navbar.navbar-default form input.search-form{border-radius: 30px; border-color: #DFDFDF; text-transform: uppercase; font-size: 11px; min-width: 200px;}
+#main-header .navbar.navbar-default .navbar-right a#profile-btn{padding:0;}
+#main-header .navbar.navbar-default .navbar-right a#profile-btn img{border-radius:100%;}
+	
 /*----------------------------------------------*/
 /* Content */
 /*----------------------------------------------*/
