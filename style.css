@@ -282,6 +282,10 @@ label .required {color:red;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record i{display: table-cell; font-size: 16px; vertical-align: middle; padding-right: 8px;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record span.caption{display: table-cell; vertical-align: middle;}
 .content-container .main-content h2{color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 16px; padding-top: 1rem; margin-bottom: 1rem;}
+.content-container .main-content table.education tbody tr td input[type='checkbox']{width: 18px; height: 19px; -webkit-appearance: none; background-image: url(images/checkbox.png); outline: none; cursor: pointer;}
+.content-container .main-content table.education tbody tr td input[type='checkbox']:checked{background-image: url(images/checkbox-checked.png);}
+.content-container .main-content table.education tbody tr td input[type='radio']{width: 20px; height: 19px; -webkit-appearance: none; background-image: url(images/radio.png); outline: none; cursor: pointer;}
+.content-container .main-content table.education tbody tr td input[type='radio']:checked{background-image: url(images/radio-checked.png);}
 
 /*----------------------------------------------*/
 /* Homepage */
