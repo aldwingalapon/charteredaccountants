@@ -416,10 +416,9 @@ a.list-group-item {
     background: #039fdc;
     color: #fff;
 }
-.nav-button-dash a{ background:url("images/dashboard.png") no-repeat 10px 12px transparent;}
-.nav-button-dash li a:hover{ background:url("images/dashboard.png") no-repeat 10px 12px transparent;}
+.nav-button-dash a{ background:url("images/Dashboard.png") no-repeat 10px 12px transparent;}
 .nav-button-enrolled a { background:url("images/enrolled-programs.png") no-repeat 10px 18px transparent;}
 .nav-button-activity a { background:url("images/activity.png") no-repeat 10px 20px transparent;}
 .nav-button-cases a { background:url("images/cases.png") no-repeat 10px 13px transparent;}
 .nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent;}
-.list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important;}text-align:  
+.list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important;}
