@@ -26,12 +26,12 @@
           <li class="nav-button-cases"><a href="#">my cases</a></li>
           <li class="dropdown nav-button-link">
             <a href="#demo4" class="list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Links <span class="caret"></span></a>
-    					<div class="collapse" id="demo4">
-      					<a href="" class="list-group-item">CA Program Links &amp; Resources</a>
-      					<a href="" class="list-group-item">CA Program Links &amp; Resources</a>
-      					<a href="" class="list-group-item">CA Program Links &amp; Resources</a>
-      					<a href="" class="list-group-item">CA Program Links &amp; Resources</a>
-    					</div>
+    					<ul class="collapse" id="demo4">
+      					<li class="list-group-item"><a href="" class="list-group-item">CA Program Links &amp; Resources</a></li>
+      					<li class="list-group-item"><a href="" class="list-group-item">CA Program Links &amp; Resources</a></li>
+      					<li class="list-group-item"><a href="" class="list-group-item">CA Program Links &amp; Resources</a></li>
+      					<li class="list-group-item"><a href="" class="list-group-item">CA Program Links &amp; Resources</a></li>
+    					</ul>
           </li>
         </ul>
       </div><!--/.nav-collapse -->

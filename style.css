@@ -306,25 +306,27 @@ label .required {color:red;}
 /*----------------------------------------------*/
 #left-sidebar{
     background: #0496cf;
+    min-height: 750px;
 }
 .avatar{
     margin: 0 auto;
     text-align: center;
+    text-transform: uppercase;
 }
 .avatar h1{
     font-family: nexabold;
     color: #fff;
 }
 .ribbon {
- font-size: 13px !important;
- width: 80%;  
- height: 38px; 
+ font-size: 11px !important;
+ width: 80%;
+ height: 32px;
  position: relative;
  background: #8ccce7;
  color: #006187;
  text-align: center;
- padding: 10px 5px; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ padding: 8px 5px;/* Adjust to suit */
+ margin: 2em auto 3em;/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 .ribbon:before, .ribbon:after {
  content: "";
@@ -381,14 +383,16 @@ label .required {color:red;}
     padding-left: 45px;
   }
 }
+.sidebar-nav .caret{float: right; margin-top: 10px;}
 .list-group-item{
-    background: #039fdc!important;
+    background-color: #039fdc!important;
+    border: none;
 }
-.list-group-item li:hover{
-    background: #000;
-}
-.list-group-item li a{
+a.list-group-item {
+    border: none!important;
+    font-size:  12px;
     font-family: 'Nexa Regular'!important;
+    font-weight: 100;
 }
 .sidebar-nav .navbar{
     border-radius: 0px;
@@ -418,3 +422,4 @@ label .required {color:red;}
 .nav-button-activity a { background:url("images/activity.png") no-repeat 10px 20px transparent;}
 .nav-button-cases a { background:url("images/cases.png") no-repeat 10px 13px transparent;}
 .nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent;}
+.list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important;}text-align:  
