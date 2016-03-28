@@ -20,10 +20,10 @@
       
       <div class="navbar-collapse collapse sidebar-navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="nav-button-dash"><a href="#">My DASHBOARD</a></li>
-          <li class="nav-button-enrolled"><a href="#">my enrolled programs</a></li>
-          <li class="nav-button-activity"><a href="#">my registered activities</a></li>
-          <li class="nav-button-cases"><a href="#">my cases</a></li>
+          <li class="nav-button-dash"><a href="#">My Dashboard</a></li>
+          <li class="nav-button-enrolled"><a href="#">My Enrolled Programs</a></li>
+          <li class="nav-button-activity"><a href="#">My Registered Activities</a></li>
+          <li class="nav-button-cases"><a href="#">My Cases</a></li>
           <li class="dropdown nav-button-link">
             <a href="#demo4" class="list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Links <span class="caret"></span></a>
     					<ul class="collapse" id="demo4">
@@ -33,6 +33,7 @@
       					<li class="list-group-item"><a href="" class="list-group-item">CA Program Links &amp; Resources</a></li>
     					</ul>
           </li>
+          <li class="nav-button-messages"><a href="#">My Messages</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
