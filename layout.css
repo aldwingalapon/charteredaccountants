@@ -1,7 +1,7 @@
 @media (min-width: 1280px) {
 	#main-header .navbar.navbar-default .navbar-nav-main.nav{margin-left:4.25rem;}
 	#main-header .navbar.navbar-default .navbar-form{margin-left:2.25rem;}
-	#main-header .navbar.navbar-default .navbar-nav-main.nav, #main-header .navbar.navbar-default .navbar-form{padding: 1rem 0;}
+	#main-header .navbar.navbar-default .navbar-nav-main.nav, #main-header .navbar.navbar-default .navbar-form{padding: 1.35rem 0 0 0;}
 	#main-header .navbar.navbar-default form .form-group input.search-form{}
 	#main-header .navbar.navbar-default form button{font-size: 14px;}
 	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-size: 14px;}
