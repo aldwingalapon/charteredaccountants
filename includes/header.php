@@ -69,12 +69,6 @@
 						<li><a href="#" title="Industry Topics">Industry Topics</a></li>
 						<li><a href="#" title="New Media">New Media</a></li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
-						<div class="form-group">
-							<input type="text" class="form-control search-form" placeholder="Search...">
-							<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-						</div>
-					</form>					
 					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown">
 						<li class="dropdown"><a href="#" id="profile-btn" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title=""><img class="menu-avatar" src="images/avatar.png"></a>
 							<ul class="dropdown-menu" id="account-dropdown">
@@ -87,6 +81,12 @@
 							</ul>
 						</li>
 					</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control search-form" placeholder="Search...">
+							<button type="submit" class="btn btn-default"></button>
+						</div>
+					</form>					
 					<ul class="nav navbar-nav navbar-nav-account navbar-right" id="user-dropdown-767">
 						<li class="account"><img class="menu-avatar" src="images/avatar.png">Joshua Bretag <span class="email"><i class="fa fa-envelope gray"></i> joshua.bretag@gmail.com</span></li>
 						<li class="member" title="Members"><a href="#">Members</a></li>
