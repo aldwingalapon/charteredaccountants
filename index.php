@@ -80,7 +80,7 @@
 					</tbody>
 				</table>
 -->				
-				<h2 class="education-title">My education records</h2>
+				<h2 class="education-title">My Education Records</h2>
 				<table class="education">
 					<thead>
 						<tr>
