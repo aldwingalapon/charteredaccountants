@@ -62,6 +62,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<div class="table-footer"><button class="btn btn-default view view-all">View All</button></div>
 <!--
 				<table class="cpd-cpe">
 					<thead>
@@ -126,6 +127,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<div class="table-footer"><button class="btn btn-default view view-less">View Less</button><button class="btn btn-default new">New</button></div>
 			</div>
 			<div class="clearfix">
 			</div>
