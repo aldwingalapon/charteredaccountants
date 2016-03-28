@@ -305,13 +305,13 @@ label .required {color:red;}
 /* Siderbar */
 /*----------------------------------------------*/
 #left-sidebar{
-    background: #0496cf;
+    background: #58595b;
     min-height: 750px;
 }
 .avatar{
     margin: 0 auto;
     text-align: center;
-    text-transform: uppercase;
+    padding: 10px;
 }
 .avatar h1{
     font-family: nexabold;
@@ -322,45 +322,20 @@ label .required {color:red;}
  width: 80%;
  height: 32px;
  position: relative;
- background: #8ccce7;
- color: #006187;
+ background: #00a3dd;
+ color: #fff;
  text-align: center;
+ border-radius: 8px;
  padding: 8px 5px;/* Adjust to suit */
  margin: 2em auto 3em;/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
-.ribbon:before, .ribbon:after {
- content: "";
- position: absolute;
- display: block;
- top: 0;
- border: 1.5em solid #8ccce7;
- z-index: 1;
-}
-.ribbon:before {
- left: -2em;
- border-right-width: 1.5em;
- border-left-color: transparent;
-}
-.ribbon:after {
- right: -2em;
- border-left-width: 1.5em;
- border-right-color: transparent;
-}
 
-.ribbon .ribbon-content:before {
- left: 0;
- border-width: 1em 0 0 1em;
-}
-.ribbon .ribbon-content:after {
- right: 0;
- border-width: 1em 1em 0 0;
-}
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
-    background: #00a4e4;
+    background: #58595b;
   }
   .sidebar-nav:active{background: #039fdc;}
   .sidebar-nav .navbar ul {
@@ -377,7 +352,7 @@ label .required {color:red;}
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
+    color: #c3c3c3;
     text-transform: uppercase;
     font-family: 'Nexa Heavy';
     padding-left: 45px;
@@ -385,7 +360,7 @@ label .required {color:red;}
 }
 .sidebar-nav .caret{float: right; margin-top: 10px;}
 .list-group-item{
-    background-color: #039fdc!important;
+    background-color: #5c5d5f!important;
     border: none;
 }
 a.list-group-item {
@@ -399,15 +374,17 @@ a.list-group-item {
 }
 .sidebar-nav .navbar li a:hover{
     color: #fff;
-    background-color: #039fdc;
+    background-color: #5c5d5f;
     font-weight: normal;
 }
 .left-sidebar .dropdown-menu{
     background: #039fdc;
 }
-.left-sidebar, .navbar-default,
-.sidebar-nav .navbar li a{
-    border: 1px solid #07adee;
+.sidebar-nav .navbar{
+	border-top: 1px solid #66676a;
+	border-bottom: 1px solid #66676a;
+	border-right: none;
+	border-left: none;
 }
 .left-sidebar,
 .navbar-default .navbar-nav>.active>a, 
@@ -416,9 +393,9 @@ a.list-group-item {
     background: #039fdc;
     color: #fff;
 }
-.nav-button-dash a{ background:url("images/Dashboard.png") no-repeat 10px 12px transparent;}
-.nav-button-enrolled a { background:url("images/enrolled-programs.png") no-repeat 10px 18px transparent;}
-.nav-button-activity a { background:url("images/activity.png") no-repeat 10px 20px transparent;}
-.nav-button-cases a { background:url("images/cases.png") no-repeat 10px 13px transparent;}
-.nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent;}
-.list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important;}
+.nav-button-dash a{ background:url("images/Dashboard.png") no-repeat 10px 12px transparent; background-size: 25px;}
+.nav-button-enrolled a { background:url("images/enrolled-programs.png") no-repeat 10px 18px transparent; background-size: 25px;}
+.nav-button-activity a { background:url("images/activity.png") no-repeat 10px 20px transparent; background-size: 25px;}
+.nav-button-cases a { background:url("images/cases.png") no-repeat 10px 13px transparent; background-size: 25px;}
+.nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent; background-size: 25px;}
+.list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important; background-size: 10px!important;}
