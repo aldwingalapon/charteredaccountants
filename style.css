@@ -307,7 +307,6 @@ label .required {color:red;}
 /*----------------------------------------------*/
 #left-sidebar{
     background: #58595b;
-    min-height: 750px;
 }
 .avatar{
     margin: 0 auto;
@@ -315,20 +314,20 @@ label .required {color:red;}
     padding: 10px;
 }
 .avatar h1{
-    font-family: nexabold;
+    font-family: 'Nexa Bold';
     color: #fff;
 }
 .ribbon {
- font-size: 11px !important;
- width: 80%;
- height: 32px;
- position: relative;
- background: #00a3dd;
- color: #fff;
- text-align: center;
- border-radius: 8px;
- padding: 8px 5px;/* Adjust to suit */
- margin: 2em auto 3em;/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ font-size: 14px !important;
+    width: 80%;
+    /* height: 32px; */
+    position: relative;
+    background: #00a3dd;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    /* padding: 8px 5px; */
+    margin: 1em auto 1em;
 }
 
 /* make sidebar nav vertical */ 
@@ -355,7 +354,7 @@ label .required {color:red;}
     padding-bottom: 12px;
     color: #c3c3c3;
     font-family: 'Nexa Regular';
-    padding-left: 45px;
+    padding-left: 60px;
   }
 }
 .sidebar-nav .caret{float: right; margin-top: 10px;}
@@ -381,10 +380,10 @@ a.list-group-item {
     background: #039fdc;
 }
 .sidebar-nav .navbar{
-	border-top: 1px solid #66676a;
-	border-bottom: 1px solid #66676a;
-	border-right: none;
-	border-left: none;
+    border-top: 1px solid #66676a;
+    border-bottom: 1px solid #66676a;
+    border-right: none;
+    border-left: none;
 }
 .left-sidebar,
 .navbar-default .navbar-nav>.active>a, 
@@ -400,3 +399,18 @@ a.list-group-item {
 .nav-button-messages a { background:url("images/messages.png") no-repeat 10px 13px transparent; background-size: 25px;}
 .nav-button-link a { background:url("images/link.png") no-repeat 10px 13px transparent; background-size: 25px;}
 .list-group-item a {background: url("images/bullet.png") no-repeat 15px 18px transparent!important; background-size: 10px!important;}
+@media(max-width: 760px){
+    .navbar-nav>li>a{
+        padding-left: 60px;
+    }
+    .sidebar-nav .nav>li{background: #5c5d5f;color: #fff;}
+    .sidebar-nav .nav a{color: #fff!important;}
+    .list-group-item a{
+        padding-left: 40px;
+        color: #fff;
+    }
+    .sidebar-nav .navbar{background: #58595b;}
+    .navbar-default .navbar-brand{
+        color: #fff;
+    }
+}
