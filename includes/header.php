@@ -60,7 +60,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="c-hamburger c-hamburger--htx" data-toggle="collapse" data-target="#navbar"><span>toggle menu</span></button>
-					<a class="navbar-brand" href="/charteredaccountants/"><img alt="Brand" src="images/ca-logo.png" alt="Chartered Accountants" title="Chartered Accountants" height="50" width="245"></a>
+					<a class="navbar-brand" href="/charteredaccountants/"><img alt="Brand" src="images/ca-logo.png" alt="Chartered Accountants" title="Chartered Accountants" height="45" width="220"></a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-nav-main navbar-left">
