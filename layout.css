@@ -1,13 +1,12 @@
 @media (min-width: 1280px) {
 	#main-header .navbar.navbar-default .navbar-nav-main.nav{margin-left:4.25rem;}
-	#main-header .navbar.navbar-default .navbar-form{margin:0;}
 	#main-header .navbar.navbar-default .navbar-nav-main.nav{padding: 1.35rem 0 0 0;}
-	#main-header .navbar.navbar-default .navbar-form{padding: 1.4rem 0 0 0;}
+	#main-header .navbar.navbar-default .navbar-form{margin:0;padding: 1.4rem 0 0 0 !important;}
 	#main-header .navbar.navbar-default form .form-group input.search-form{}
 	#main-header .navbar.navbar-default form button{font-size: 14px;}
 	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-size: 14px;}
 	#main-header .navbar.navbar-default .navbar-right{padding:1.5rem 0; margin-right:1.25rem;}
-	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin:2.25rem -1.5rem 0 0 !important;}
+	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin:1.75rem -1.5rem 0 0 !important;}
 	#main-header .navbar.navbar-default .navbar-right>li>a{}
 }
 
