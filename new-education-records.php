@@ -69,7 +69,7 @@
 						</tr>
 						<tr>
 							<td>Check/uncheck the following options</td>
-							<td></td>
+							<td><input type="checkbox" checked> CAHDP <input type="checkbox"> Bridging <input type="checkbox"> Training and Development</td>
 						</tr>
 						<tr>
 							<td>Qualifying Hours</td>
