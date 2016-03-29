@@ -266,6 +266,7 @@ label .required {color:red;}
 .content-container .main-content .table-header:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#B7BF10;content:"";}
 
 .content-container .main-content .table-subheader{position:relative; color: #000; background-color:#FFF; font-family: 'Nexa Bold'; font-size: 13px; text-transform:none; margin: 0; padding: 0.75rem 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
+.content-container .main-content .table-subheader:not(:first-child){border-top:none;}
 .content-container .main-content .table-subheader:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#58595B;content:"";}
 
 .content-container .main-content .table-footer{display:block; width:100%;padding:1rem; text-align: center; background-color:#F5F5F5; color:#FFF; margin-bottom: 1.5rem;border-left: 1px solid #E4E4E4;border-bottom: 1px solid #E4E4E4;border-right: 1px solid #E4E4E4;}

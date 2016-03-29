@@ -11,12 +11,12 @@
 				<table class="enrollment-detail alt">
 					<tbody>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Core</td>
+							<td>Name</td>
+							<td>Joshua Bretag</td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Preferred Name</td>
+							<td>Josh</td>
 						</tr>
 					</tbody>
 					</table>
@@ -24,8 +24,8 @@
 					<table class="enrollment-detail">
 					<tbody>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Account name</td>
+							<td>joshuabretag</td>
 						</tr>
 					</tbody>
 					</table>
@@ -33,40 +33,40 @@
 					<table class="enrollment-detail">
 					<tbody>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Core</td>
+							<td>Mentor Name</td>
+							<td>Steve Jobs</td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Module</td>
+							<td>AAABC</td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Are your employment and mentor  details correct?</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Please upload employment details form</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Core</td>
+							<td>Do you require assistance?</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Core</td>
+							<td>Please select your exam location preference</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Please select your country of residence</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+							<td>Accept terms and conditions</td>
+							<td><input type="checkbox" checked></td>
 						</tr>
-						<tr>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
+						<tr class="summary total">
+							<td>Total:</td>
+							<td>$1,225.00</td>
 						</tr>
 					</tbody>
 				</table>
