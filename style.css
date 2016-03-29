@@ -260,6 +260,13 @@ label .required {color:red;}
 .content-container {margin:0; padding:0;}
 .content-container .main-content{padding: 2rem 2rem 4rem 2rem;}
 .content-container .main-content table{position:relative;width:100%; margin:0; padding:0;}
+.content-container .main-content table.detail-two-column{}
+.content-container .main-content table.detail-two-column tr{}
+.content-container .main-content table.detail-two-column td{font-family: 'Nexa Regular';text-align:left;}
+.content-container .main-content table.detail-two-column td:first-child{width:25%;}
+.content-container .main-content table.detail-two-column td:last-child{}
+.content-container .main-content table tr.summary td{font-family: 'Nexa Bold';}
+.content-container .main-content table tr.summary.total td{}
 .content-container .main-content .table-header{position:relative; color: #000; background-color:#FCFCFC; font-family: 'Nexa Bold'; font-size: 14.5px; text-transform:none; margin: 0; padding: 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
 .content-container .main-content .table-header label{color: #111111; font-family: 'Nexa Bold'; font-size: 10px;}
 .content-container .main-content .table-header input{}

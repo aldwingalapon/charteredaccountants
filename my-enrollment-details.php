@@ -8,7 +8,7 @@
 			<div class="col-md-10 main-content dashboard">
 				<div class="table-header">Graduate Diploma of Chartered Accounting - Details</div>
 				<div class="table-subheader">Details or Profile (sub table header)</div>
-				<table class="enrollment-detail alt">
+				<table class="detail-two-column alt">
 					<tbody>
 						<tr>
 							<td>Name</td>
@@ -21,7 +21,7 @@
 					</tbody>
 					</table>
 					<div class="table-subheader">Employment Details</div>
-					<table class="enrollment-detail">
+					<table class="detail-two-column">
 					<tbody>
 						<tr>
 							<td>Account name</td>
@@ -30,7 +30,7 @@
 					</tbody>
 					</table>
 					<div class="table-subheader">Mentor Details</div>
-					<table class="enrollment-detail">
+					<table class="detail-two-column">
 					<tbody>
 						<tr>
 							<td>Mentor Name</td>
