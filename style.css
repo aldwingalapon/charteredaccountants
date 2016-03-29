@@ -242,7 +242,7 @@ label .required {color:red;}
 .c-hamburger span::before, .c-hamburger span::after {position: absolute; display: block; left: 0; width: 100%; height: 1px; background-color: #58595b; content: "";}
 .c-hamburger span::before {top: -8px;}
 .c-hamburger span::after {bottom: -8px;}
-.c-hamburger--htx {background-color: #FFF;}
+.c-hamburger--htx {background-color: transparent;}
 .c-hamburger--htx span {transition: background 0s 0.3s;}
 .c-hamburger--htx span::before, .c-hamburger--htx span::after {transition-duration: 0.3s, 0.3s; transition-delay: 0.3s, 0s;}
 .c-hamburger--htx span::before {transition-property: top, transform;}
@@ -267,6 +267,7 @@ label .required {color:red;}
 .content-container .main-content .table-footer .btn.view-all{background-image: url(images/arrow-down-v1@2x.png); background-repeat: no-repeat; background-position: 90px 12px; background-size: 12px;}
 .content-container .main-content .table-footer .btn.view-less{background-image: url(images/arrow-up-v1@2x.png); background-repeat: no-repeat; background-position: 95px 10px; background-size: 12px;}
 .content-container .main-content .table-footer .btn.new{background-color:#D22630;background-image: url(images/plus@2x.png); background-repeat: no-repeat; background-position: 80px 10px; background-size: 8px;}
+.content-container .main-content .table-footer .btn.search{background-color:#D22630;/*background-image: url(images/plus@2x.png);*/ background-repeat: no-repeat; background-position: 80px 10px; background-size: 8px; min-width: 200px;}
 .content-container .main-content table  thead{position:relative;background-color: #FFF; color: #333333; font-family: 'Nexa Xbold'; text-transform: none; font-size: 13px;}
 .content-container .main-content table th:not(:first-child){/*border-left: 1px solid #DDE3E6;*/}
 .content-container .main-content table th{line-height:1.2;}
@@ -276,8 +277,8 @@ label .required {color:red;}
 .content-container .main-content table tbody tr:nth-child(even){background-color:#FFF;}
 .content-container .main-content table tbody tr td{color: #111111; font-family: 'Nexa Bold'; font-size: 13px; vertical-align:middle;}
 
-.content-container .main-content h2.enroll-recent-title, .content-container .main-content h2.education-title{position:relative; color: #000; background-color:#FCFCFC; font-family: 'Nexa Bold'; font-size: 14.5px; text-transform:none; margin: 0; padding: 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
-.content-container .main-content h2.enroll-recent-title:before, .content-container .main-content h2.education-title:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#B7BF10;content:"";}
+.content-container .main-content.dashboard h2, .content-container .main-content h2.enroll-recent-title, .content-container .main-content h2.education-title{position:relative; color: #000; background-color:#FCFCFC; font-family: 'Nexa Bold'; font-size: 14.5px; text-transform:none; margin: 0; padding: 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
+.content-container .main-content.dashboard h2:before, .content-container .main-content h2.enroll-recent-title:before, .content-container .main-content h2.education-title:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#B7BF10;content:"";}
 .content-container .main-content table.program th.enroll{background-image: url(images/enrolled_programs@3x.png); background-repeat: no-repeat; background-position: 1.75rem .5rem; background-size: 1.75rem; padding-left: 4.5rem;}
 .content-container .main-content table.program th.status{text-align: center; width: 160px;}
 .content-container .main-content table.program tbody tr td:first-child{background-image: url(images/list@3x.png); background-repeat: no-repeat; background-position: 1.75rem 1.5rem; background-size: 1.25rem; padding-left: 4.25rem;}

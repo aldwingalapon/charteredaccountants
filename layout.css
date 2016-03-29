@@ -12,9 +12,9 @@
 
 @media (max-width: 1279px) {
 	#main-header .navbar.navbar-default form{padding-left:10%;}
-	#main-header .navbar.navbar-default form .form-group input.search-form{height: auto;}
+	#main-header .navbar.navbar-default form .form-group input.search-form{}
 	#main-header .navbar.navbar-default form button{font-size: 10px;}
-	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-size: 11px;}
+	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a {font-size: 14px; padding-left:20px;}
 	#main-header .navbar.navbar-default .navbar-header{float:none;}
 	#main-header .navbar.navbar-default .navbar-right{margin-right:1rem;}
 	#main-header .navbar.navbar-default .navbar-right a#profile-btn img{width:36px;height:36px;}

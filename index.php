@@ -5,7 +5,7 @@
 			<div id="left-sidebar" class="col-md-2 sidebar">
 				<?php include("includes/sidebar.php");?>
 			</div>
-			<div class="col-md-10 main-content">
+			<div class="col-md-10 main-content dashboard">
 				<h2 class="enroll-recent-title">My Recent Module Enrollments</h2>
 				<table class="program">
 					<thead>
@@ -62,7 +62,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="table-footer"><button class="btn btn-default view view-all">View All</button></div>
+				<div class="table-footer"><button class="btn btn-default view view-all" title="View All">View All</button></div>
 <!--
 				<table class="cpd-cpe">
 					<thead>
@@ -127,7 +127,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="table-footer"><button class="btn btn-default view view-less">View Less</button><button class="btn btn-default new">New</button></div>
+				<div class="table-footer"><button class="btn btn-default view view-less" title="View Less">View Less</button><button class="btn btn-default new" title="Add New">New</button></div>
 			</div>
 			<div class="clearfix">
 			</div>
