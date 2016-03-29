@@ -6,25 +6,12 @@
 				<?php include("includes/sidebar.php");?>
 			</div>
 			<div class="col-md-10 main-content dashboard">
-				<h2 class="enroll-recent-title">My Recent Module Enrollments</h2>
+				<div class="table-header">
+					<form class="search-form">
+						
+					</form>
+				</div>
 				<div class="table-footer"><button class="btn btn-default search" title="Search">Search</button></div>
-<!--
-				<table class="cpd-cpe">
-					<thead>
-						<tr>
-							<th class="my-cpd-cpe">my cpd / cpe</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Total CPD/CPE hours logged: <span class="count">15</span><button type="button" class="btn btn-default add-record" title="Add Education Record"><i class="fa fa-plus-circle"></i> <span class="caption">add education record</span></button></td>
-						</tr>
-						<tr>
-							<td>Total CPD/CPE hours logged: <span class="count">15</span><button type="button" class="btn btn-default add-record" title="Add Education Record"><i class="fa fa-plus-circle"></i> <span class="caption">add education record</span></button></td>
-						</tr>
-					</tbody>
-				</table>
--->				
 				<h2 class="education-title">Education Detail List</h2>
 				<table class="education">
 					<thead>
