@@ -292,6 +292,9 @@ label .required {color:red;}
 .content-container .main-content table.program tbody tr td .btn{border: none; border-radius: 8px; font-family: 'Nexa Regular'; font-size: 10px; color: #FFF;}
 .content-container .main-content table.program tbody tr td .btn:hover, .content-container .main-content table.program tbody tr td .btn:focus, .content-container .main-content table.program tbody tr td .btn:active{opacity:0.7;}
 .content-container .main-content table.program tbody tr td .btn.in-progress{background-color: #B7BF10;}
+.content-container .main-content table.program tbody tr td .btn.enroll{background-color: #d22630;padding: 15px;font-size: 12px;font-family: 'Nexa Regular';-webkit-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);-moz-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);}
+.content-container .main-content table.program tbody tr td .btn.enroll:hover{background-color: #b7bf10;-webkit-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);-moz-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);box-shadow: 0px 2px 2px 0px rgba(146,152,14,0.75);opacity: 1;}
+.content-container .main-content table.program tbody tr td .btn.enroll:active {border:none;background-color: #b7bf10;-webkit-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);-moz-box-shadow: 0px 2px 2px 0px rgba(165,31,39,0.75);box-shadow: 0px 2px 2px 0px rgba(146,152,14,0.75);opacity: 1;}
 .content-container .main-content table.program tbody tr td .btn.stop{background-color: #D22630;}
 .content-container .main-content table.cpd-cpe th.my-cpd-cpe{background-image: url(images/my_cpd@3x.png); background-repeat: no-repeat;
  background-position: 1.75rem .5rem; background-size: 1.75rem; padding-left: 4.5rem;}
