@@ -6,7 +6,7 @@
 				<?php include("includes/sidebar.php");?>
 			</div>
 			<div class="col-md-10 main-content dashboard">
-				<div class="error-message error">You must select at least 4 elective/s before you can proceed</div>
+				<div class="error-message error"><i class="fa fa-warning"></i> You must select at least 4 elective/s before you can proceed</div>
 				<div class="table-header">Graduate Diploma of Chartered Accounting - Minimum Elective 1</div>
 				<div class="info-message info">Module Selection: Please select atleast 4 option below</div>
 				<table class="education">
@@ -24,7 +24,7 @@
 							<td>Core</td>
 						</tr>
 						<tr>
-							<td><input type="checkbox" checked> Please check me pretty please</td>
+							<td><input type="checkbox"> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Elective</td>
 						</tr>
@@ -34,7 +34,7 @@
 							<td>Elective</td>
 						</tr>
 						<tr>
-							<td><input type="checkbox" checked> Please check me pretty please</td>
+							<td><input type="checkbox"> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Elective</td>
 						</tr>
@@ -46,7 +46,7 @@
 					</tbody>
 				</table>
 				<div class="table-footer"><button class="btn btn-default navigation prev-btn" title="Back">Back</button><button class="btn btn-default navigation next-btn" title="Next">Next</button></div>
-				<div class="error-message error">You must select at least 4 elective/s before you can proceed</div>
+				<div class="error-message error"><i class="fa fa-warning"></i> You must select at least 4 elective/s before you can proceed</div>
 			</div>
 			<div class="clearfix">
 			</div>
