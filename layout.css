@@ -1,6 +1,6 @@
 @media (min-width: 1280px) {
 	#main-header .navbar.navbar-default .navbar-nav-main.nav{margin-left:4.25rem;}
-	#main-header .navbar.navbar-default .navbar-nav-main.nav{padding: 1.35rem 0 0 0;}
+	#main-header .navbar.navbar-default .navbar-nav-main.nav{padding: 1.55rem 0 0 0;}
 	#main-header .navbar.navbar-default .navbar-form{margin:0;padding: 1.4rem 0 0 0 !important;}
 	#main-header .navbar.navbar-default form .form-group input.search-form{}
 	#main-header .navbar.navbar-default form button{font-size: 14px;}
@@ -35,7 +35,7 @@
 	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu{margin-top: 1.5rem; margin-right: -0.75rem;}
 	#main-header .navbar.navbar-default .navbar-right>li>.dropdown-menu:before{content: ""; position: absolute; right: 22px; top: -12px; width: 0; height: 0; border-style: solid; border-width: 0 18px 18px 18px; border-color: transparent transparent #58595B transparent; z-index: 9999;}
 	.c-hamburger{display:none;}
-	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a:hover, #main-header .navbar.navbar-default .navbar-nav-main.nav>li:hover>a{border-bottom:8px solid #d22630;}
+	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a:hover, #main-header .navbar.navbar-default .navbar-nav-main.nav>li:hover>a{border-bottom:5px solid #d22630;}
 	#user-dropdown{display:block;}
 	#user-dropdown-767{display:none;}
 	.content-container .row-fluid [class*="col-"] {float: none; display: table-cell; vertical-align: top;}
