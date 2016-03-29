@@ -41,24 +41,56 @@
 							<td>AAABC</td>
 						</tr>
 						<tr>
-							<td>Are your employment and mentor  details correct?</td>
-							<td></td>
+							<td class="req">Are your employment and mentor  details correct?</td>
+							<td>
+								<select class="select-option" id="details-correct">
+									<option>Please select</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>								
+								</select>
+							</td>
 						</tr>
 						<tr>
 							<td>Please upload employment details form</td>
-							<td></td>
+							<td><input type="file" /></td>
 						</tr>
 						<tr>
-							<td>Do you require assistance?</td>
-							<td></td>
+							<td class="req">Do you require assistance?</td>
+							<td>
+								<select class="select-option" id="assistance">
+									<option>-- None --</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>								
+								</select>
+							</td>
 						</tr>
-						<tr>
+						<tr class="req">
 							<td>Please select your exam location preference</td>
-							<td></td>
+							<td>
+								<select class="location" id="exam-location">
+									<option>Select exam location</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>								
+								</select>
+							</td>
 						</tr>
-						<tr>
+						<tr class="req" class="select-option" id="residence">
 							<td>Please select your country of residence</td>
-							<td></td>
+							<td>
+								<select>
+									<option>-- None --</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>								
+								</select>
+							</td>
 						</tr>
 						<tr>
 							<td>Accept terms and conditions</td>
