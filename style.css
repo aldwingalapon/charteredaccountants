@@ -317,6 +317,18 @@ label .required {color:red;}
 .content-container .main-content  .error-message.error{}
 .content-container .main-content  .info-message{color: #111111; background-color: #FFF; font-family: 'Nexa Bold'; font-size: 13px; padding: 1rem; vertical-align: middle;border-left: 1px solid #E4E4E4; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
 .content-container .main-content  .info-message.info{background-image: url(images/info@3x.png); background-repeat: no-repeat; background-position: 1rem; background-size: 1.25rem; padding-left: 3rem;}
+.content-container .main-content  span.info-payment{background-image: url(images/info@3x.png); background-repeat: no-repeat; background-position: 1px; background-size: 1.25rem; padding-left: 3rem;}
+.content-container .main-content  span.info-state{padding:28px;}
+
+.content-container .main-content  label.state{color: #58595b; }
+.content-container .main-content  hr.separator{width: 70px;display: inline-block;margin: 10px 20px 3px 20px;border-color: #58595b;}
+.content-container .main-content  input.token{padding: 10px;border-radius: 5px; float: left;margin-right: 10px;width: 200px;}
+.content-container .main-content  input.token.normal-state{border: 1px solid #d4d4d4; background-color: #f2f2f2;}
+.content-container .main-content  input.token.active-state{border: 1px solid #d5da75;}
+.content-container .main-content  input.token.verified{border: 1px solid #d5da75; background-image: url('images/check-verified@2x.png');background-repeat: no-repeat;background-position: 170px 10px; background-size: 20px;}
+.content-container .main-content  input.token.incorrect{border: 1px solid #d22630; background-image: url('images/incorrect-not-verified@2x.png');background-repeat: no-repeat;background-position: 170px 10px; background-size: 20px;}
+.content-container .main-content  button.verified{background: #fff; border: 1px solid #c6c6c6;font-family: 'Nexa Regular';font-size: 14px;border-radius: 5px;padding: 10px 15px 10px 15px;}
+.content-container .main-content  button.verified:focus{border: none;}
 
 .content-container .main-content table  thead{position:relative;background-color: #FFF; color: #333333; font-family: 'Nexa Xbold'; text-transform: none; font-size: 13px;}
 .content-container .main-content table th:not(:first-child){/*border-left: 1px solid #DDE3E6;*/}
