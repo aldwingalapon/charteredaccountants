@@ -20,17 +20,17 @@
   					<label class="state">Payment Token</label><br>
   					<input type="text" class="token active-state" name="ptoken">
   					<button class="verified">Verify</button>
-  					<hr class="separator"> <label class="state">Normal State</label>
+  					<hr class="separator"> <label class="state">Active State</label>
   					<br><br>
   					<label>Payment Token</label><br>
   					<input type="text" class="token verified" name="ptoken">
   					<button class="verified">Verify</button>
-  					<hr class="separator"> <label class="state">Normal State</label>
+  					<hr class="separator"> <label class="state">Token Verified</label>
   					<br><br>
   					<label>Payment Token</label><br>
   					<input type="text" class="token incorrect" name="ptoken">
   					<button class="verified">Verify</button>
-  					<hr class="separator"> <label class="state">Normal State</label>
+  					<hr class="separator"> <label class="state">Token Incorrect</label>
 				</form>
 				</div>
 				
