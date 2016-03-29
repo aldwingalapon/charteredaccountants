@@ -7,8 +7,31 @@
 			</div>
 			<div class="col-md-10 main-content dashboard">
 				<div class="table-header">
-					<form class="search-form">
-						
+					<form class="search-form row" role="form">
+						<div class="col-md-2">
+							<div class="form-group">
+								<label for="from-date">FROM DATE COMMENCED</label>
+								<input type="date" class="form-control" id="from-date">
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="form-group">
+								<label for="to-date">TO DATE COMMENCED</label>
+								<input type="date" class="form-control" id="to-date">
+							</div>					
+						</div>					
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="course">EVENT/COURSE NAME</label>
+								<input type="text" class="form-control" id="course">
+							</div>					
+						</div>					
+						<div class="col-md-5">
+							<div class="form-group">
+								<label for="university">UNIVERSITY PROFESSIONAL ORGRANIZATION</label>
+								<input type="text" class="form-control" id="university">
+							</div>					
+						</div>					
 					</form>
 				</div>
 				<div class="table-footer"><button class="btn btn-default search" title="Search">Search</button></div>
