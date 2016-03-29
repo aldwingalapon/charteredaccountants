@@ -277,6 +277,8 @@ label .required {color:red;}
 
 .content-container .main-content  .error-message{display: block; width: 100%; border-radius: 2px; font-family: 'Nexa Regular'; font-size: 11px; background-color: #FFEFF0; color: #d22630; border: 1px solid rgba(210,38,28,0.2); text-align: center; padding: 6px; margin: 0 0 1em 0;}
 .content-container .main-content  .error-message.error{}
+.content-container .main-content  .info-message{color: #111111; background-color: #FFF; font-family: 'Nexa Bold'; font-size: 13px; padding: 1rem; vertical-align: middle;border-left: 1px solid #E4E4E4; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
+.content-container .main-content  .info-message.info{}
 
 .content-container .main-content table  thead{position:relative;background-color: #FFF; color: #333333; font-family: 'Nexa Xbold'; text-transform: none; font-size: 13px;}
 .content-container .main-content table th:not(:first-child){/*border-left: 1px solid #DDE3E6;*/}
@@ -326,10 +328,10 @@ label .required {color:red;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record i{display: table-cell; font-size: 16px; vertical-align: middle; padding-right: 8px;}
  .content-container .main-content table.cpd-cpe tbody tr td .btn.add-record span.caption{display: table-cell; vertical-align: middle;}
 .content-container .main-content h2{color: #333333; font-family: 'Nexa Xbold'; text-transform: uppercase; font-size: 16px; padding-top: 1rem; margin-bottom: 1rem;}
-.content-container .main-content table.education tbody tr td input[type='checkbox']{width: 18px; height: 19px; -webkit-appearance: none; background-image: url(images/checkbox.png); outline: none; cursor: pointer;}
-.content-container .main-content table.education tbody tr td input[type='checkbox']:checked{background-image: url(images/checkbox-checked.png);}
-.content-container .main-content table.education tbody tr td input[type='radio']{width: 20px; height: 19px; -webkit-appearance: none; background-image: url(images/radio.png); outline: none; cursor: pointer;}
-.content-container .main-content table.education tbody tr td input[type='radio']:checked{background-image: url(images/radio-checked.png);}
+.content-container .main-content table tbody tr td input[type='checkbox']{vertical-align:middle; margin:0 5px 0 0; width: 18px; height: 19px; -webkit-appearance: none; background-image: url(images/checkbox.png); outline: none; cursor: pointer;}
+.content-container .main-content table tbody tr td input[type='checkbox']:checked{background-image: url(images/checkbox-checked.png);}
+.content-container .main-content table tbody tr td input[type='radio']{vertical-align:middle; margin:0 5px 0 0; width: 20px; height: 19px; -webkit-appearance: none; background-image: url(images/radio.png); outline: none; cursor: pointer;}
+.content-container .main-content table tbody tr td input[type='radio']:checked{background-image: url(images/radio-checked.png);}
 
 /*----------------------------------------------*/
 /* Homepage */
