@@ -7,7 +7,7 @@
 			</div>
 			<div class="col-md-10 main-content">
 				<h2 class="enroll-recent-title">Graduate Diploma of Chartered Accounting</h2>
-				<table class="program">
+				<table class="enrollment">
 					<thead>
 						<tr>
 							<td>Module</td>
