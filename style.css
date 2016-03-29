@@ -265,7 +265,7 @@ label .required {color:red;}
 .content-container .main-content .table-header input{}
 .content-container .main-content .table-header:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#B7BF10;content:"";}
 
-.content-container .main-content .table-subheader{position:relative; color: #000; background-color:#FCFCFC; font-family: 'Nexa Bold'; font-size: 13px; text-transform:none; margin: 0; padding: 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
+.content-container .main-content .table-subheader{position:relative; color: #000; background-color:#FFF; font-family: 'Nexa Bold'; font-size: 13px; text-transform:none; margin: 0; padding: 0.75rem 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}
 .content-container .main-content .table-subheader:before{position:absolute; top:0;left:0;width:4px;height:100%;background-color:#58595B;content:"";}
 
 .content-container .main-content .table-footer{display:block; width:100%;padding:1rem; text-align: center; background-color:#F5F5F5; color:#FFF; margin-bottom: 1.5rem;border-left: 1px solid #E4E4E4;border-bottom: 1px solid #E4E4E4;border-right: 1px solid #E4E4E4;}
@@ -291,8 +291,8 @@ label .required {color:red;}
 .content-container .main-content table th{line-height:1.2;}
 .content-container .main-content table th, .content-container .main-content table td{padding: 1rem;}
 .content-container .main-content table  thead tr, .content-container .main-content table tbody tr{border: 1px solid #E4E4E4;}
-.content-container .main-content table tbody tr:nth-child(odd){background-color:#FCFCFC;}
-.content-container .main-content table tbody tr:nth-child(even){background-color:#FFF;}
+.content-container .main-content table tbody tr:nth-child(odd), .content-container .main-content table.alt tbody tr:nth-child(even){background-color:#FCFCFC;}
+.content-container .main-content table tbody tr:nth-child(even), .content-container .main-content table.alt tbody tr:nth-child(odd){background-color:#FFF;}
 .content-container .main-content table tbody tr td{color: #111111; font-family: 'Nexa Bold'; font-size: 13px; vertical-align:middle;}
 
 .content-container .main-content.dashboard h2, .content-container .main-content h2.enroll-recent-title, .content-container .main-content h2.education-title{position:relative; color: #000; background-color:#FCFCFC; font-family: 'Nexa Bold'; font-size: 14.5px; text-transform:none; margin: 0; padding: 1rem; border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;}

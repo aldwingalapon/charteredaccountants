@@ -7,40 +7,66 @@
 			</div>
 			<div class="col-md-10 main-content dashboard">
 				<div class="table-header">Graduate Diploma of Chartered Accounting - Details</div>
-				<div class="info-message info">Module Selection: Please select atleast 4 option below</div>
-				<table class="education">
-					<thead>
-						<tr>
-							<th>Selection</th>
-							<th>Subject Name</th>
-							<th>Essential</th>
-						</tr>
-					</thead>
+				<div class="table-subheader">Details or Profile (sub table header)</div>
+				<table class="enrollment-detail alt">
 					<tbody>
 						<tr>
-							<td><input type="checkbox" checked> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Core</td>
 						</tr>
 						<tr>
-							<td><input type="checkbox"> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Elective</td>
 						</tr>
+					</tbody>
+					</table>
+					<div class="table-subheader">Employment Details</div>
+					<table class="enrollment-detail">
+					<tbody>
 						<tr>
-							<td><input type="checkbox" checked> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Elective</td>
 						</tr>
+					</tbody>
+					</table>
+					<div class="table-subheader">Mentor Details</div>
+					<table class="enrollment-detail">
+					<tbody>
 						<tr>
-							<td><input type="checkbox"> Please check me pretty please</td>
-							<td>Lorem Ipsum Dolor Itset</td>
-							<td>Elective</td>
-						</tr>
-						<tr>
-							<td><input type="checkbox" checked> Please check me pretty please</td>
 							<td>Lorem Ipsum Dolor Itset</td>
 							<td>Core</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Core</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Core</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
+						</tr>
+						<tr>
+							<td>Lorem Ipsum Dolor Itset</td>
+							<td>Elective</td>
 						</tr>
 					</tbody>
 				</table>
