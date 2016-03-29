@@ -68,13 +68,12 @@
 						
 					</tbody>
 				</table>
-				<div class="table-footer"><button class="btn btn-default view view-all">View All</button></div>
-
+				<br>
 				<h2 class="enroll-recent-title">My Recent Module Enrollments</h2>
 				<table class="program">
 					<thead>
 						<tr>
-							<td>Module</td>
+							<td>Course Name</td>
 							<td>Commencement</td>
 							<td>Enrollment Start Date</td>
 							<td>Enrollment End Date</td>
