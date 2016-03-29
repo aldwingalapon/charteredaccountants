@@ -43,13 +43,15 @@
 						<tr>
 							<td class="req">Are your employment and mentor  details correct?</td>
 							<td>
-								<select class="select-option" id="details-correct">
-									<option>Please select</option>
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>								
-								</select>
+								<div class="select-wrapper arrow">
+									<select class="select-option" id="details-correct">
+										<option>Please select</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>								
+									</select>
+								</div>
 							</td>
 						</tr>
 						<tr>
@@ -59,37 +61,43 @@
 						<tr>
 							<td class="req">Do you require assistance?</td>
 							<td>
-								<select class="select-option" id="assistance">
-									<option>-- None --</option>
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>								
-								</select>
+								<div class="select-wrapper arrow">
+									<select class="select-option" id="assistance">
+										<option>-- None --</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>								
+									</select>
+								</div>
 							</td>
 						</tr>
-						<tr class="req">
-							<td>Please select your exam location preference</td>
+						<tr>
+							<td class="req">Please select your exam location preference</td>
 							<td>
-								<select class="location" id="exam-location">
-									<option>Select exam location</option>
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>								
-								</select>
+								<div class="select-wrapper search">
+									<select class="location" id="exam-location">
+										<option>Select exam location</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>								
+									</select>
+								</div>
 							</td>
 						</tr>
-						<tr class="req" class="select-option" id="residence">
-							<td>Please select your country of residence</td>
+						<tr>
+							<td class="req">Please select your country of residence</td>
 							<td>
-								<select>
-									<option>-- None --</option>
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>								
-								</select>
+								<div class="select-wrapper arrow">
+									<select class="select-option" id="residence">
+										<option>-- None --</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>								
+									</select>
+								</div>
 							</td>
 						</tr>
 						<tr>
