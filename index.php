@@ -7,6 +7,7 @@
 			</div>
 			<div class="col-md-10 main-content dashboard">
 				<h2 class="enroll-recent-title">My Recent Module Enrollments</h2>
+				<div class="table-responsive">
 				<table class="program">
 					<thead>
 						<tr>
@@ -62,6 +63,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default view view-all" title="View All">View All</button></div>
 <!--
 				<table class="cpd-cpe">
@@ -81,6 +83,7 @@
 				</table>
 -->				
 				<h2 class="education-title">My Education Records</h2>
+				<div class="table-responsive">
 				<table class="education">
 					<thead>
 						<tr>
@@ -127,6 +130,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default view view-less" title="View Less">View Less</button><button class="btn btn-default new" title="Add New">New</button></div>
 			</div>
 			<div class="clearfix">

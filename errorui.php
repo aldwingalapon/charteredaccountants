@@ -9,6 +9,7 @@
 				<div class="error-message error"><i class="fa fa-warning"></i> You must select at least 4 elective/s before you can proceed</div>
 				<div class="table-header">Graduate Diploma of Chartered Accounting - Minimum Elective 1</div>
 				<div class="info-message info">Module Selection: Please select atleast 4 option below</div>
+				<div class="table-responsive">
 				<table class="education">
 					<thead>
 						<tr>
@@ -45,6 +46,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default navigation prev-btn" title="Back">Back</button><button class="btn btn-default navigation next-btn" title="Next">Next</button></div>
 				<div class="error-message error"><i class="fa fa-warning"></i> You must select at least 4 elective/s before you can proceed</div>
 			</div>

@@ -7,6 +7,7 @@
 			</div>
 			<div class="col-md-10 main-content dashboard">
 				<div class="table-header">Education Details</div>
+				<div class="table-responsive">
 				<table class="detail-two-column">
 					<tbody>
 						<tr>
@@ -104,7 +105,8 @@
 							</td>
 						</tr>
 					</tbody>
-					</table>
+				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default navigation prev-btn" title="Back">Back</button><button class="btn btn-default navigation next-btn" title="Next">Next</button></div>
 			</div>
 			<div class="clearfix">

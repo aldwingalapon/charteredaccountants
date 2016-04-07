@@ -7,6 +7,7 @@
 			</div>
 			<div class="col-md-10 main-content">
 				<h2 class="enroll-recent-title">Graduate Diploma of Chartered Accounting</h2>
+				<div class="table-responsive">
 				<table class="enrollment">
 					<thead>
 						<tr>
@@ -68,8 +69,9 @@
 						
 					</tbody>
 				</table>
-				<br>
+				</div>
 				<h2 class="enroll-recent-title">My Recent Module Enrollments</h2>
+				<div class="table-responsive">
 				<table class="program">
 					<thead>
 						<tr>
@@ -119,6 +121,7 @@
 						
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default view view-all">View All</button></div>
 			</div>
 			<div class="clearfix">

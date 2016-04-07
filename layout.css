@@ -23,6 +23,7 @@
 @media (min-width: 1024px){
 	#main-header .navbar.navbar-default form .form-group input.search-form{min-width: 230px;}
 	#main-header .navbar.navbar-default .navbar-right a#profile-btn{padding:0;}
+	.content-container .row-fluid [class*="col-"] {float: none; display: table-cell; vertical-align: top;}
 }
 
 @media (max-width: 1023px){
@@ -38,7 +39,6 @@
 	#main-header .navbar.navbar-default .navbar-nav-main.nav>li>a:hover, #main-header .navbar.navbar-default .navbar-nav-main.nav>li:hover>a{border-bottom:5px solid #d22630;}
 	#user-dropdown{display:block;}
 	#user-dropdown-767{display:none;}
-	.content-container .row-fluid [class*="col-"] {float: none; display: table-cell; vertical-align: top;}
 }
 
 @media (max-width: 768px){
@@ -72,4 +72,4 @@
 	#main-header .navbar.navbar-default .navbar-right#user-dropdown-767 li.setting:hover a{background-image: url(images/Dashboard@3x-white.png);}
 	#main-header .navbar.navbar-default .navbar-right#user-dropdown-767 li.logout a{background-image: url(images/logout@3x.png);}
 	#main-header .navbar.navbar-default .navbar-right#user-dropdown-767 li.logout:hover a{background-image: url(images/logout@3x-white.png);}	
-	}
+}

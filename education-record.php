@@ -36,6 +36,7 @@
 				</div>
 				<div class="table-footer"><button class="btn btn-default search" title="Search">Search</button></div>
 				<h2 class="education-title">Education Detail List</h2>
+				<div class="table-responsive">
 				<table class="education">
 					<thead>
 						<tr>
@@ -82,6 +83,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default view view-less" title="View Less">View Less</button><button class="btn btn-default new" title="Add New">New</button></div>
 			</div>
 			<div class="clearfix">

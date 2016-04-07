@@ -8,6 +8,7 @@
 			<div class="col-md-10 main-content dashboard">
 				<div class="table-header">Graduate Diploma of Chartered Accounting - Details</div>
 				<div class="table-subheader">Details or Profile (sub table header)</div>
+				<div class="table-responsive">
 				<table class="detail-two-column alt">
 					<tbody>
 						<tr>
@@ -110,6 +111,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<div class="table-footer"><button class="btn btn-default navigation prev-btn" title="Back">Back</button><button class="btn btn-default navigation next-btn" title="Next">Next</button></div>
 			</div>
 			<div class="clearfix">
