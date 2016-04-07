@@ -1,5 +1,5 @@
 <div class="avatar">
-	<img src="images/avatar2.png" alt="avatar"/>
+	<img src="images/avatar02.png" alt="avatar"/>
 	<h1>Joshua Bretag</h1>
 	<h2 class="ribbon">
    	<strong class="ribbon-content">Provisional member</strong>
