@@ -5,6 +5,7 @@
    	<strong class="ribbon-content">Provisional member</strong>
 	</h2>
 </div>
+	<span class="dashboard-title"><img src="images/dashboard-icon.png" class="dashboard-icon"/>myLearning</span>
 <div class="row">
   <div class="sidebar-nav">
     <div class="navbar navbar-default" role="navigation">

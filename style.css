@@ -388,6 +388,12 @@ label .required {color:red;}
 /* Homepage */
 /*----------------------------------------------*/
 
+/*----------------------------------------------*/
+/* Sidebar */
+/*----------------------------------------------*/
+.dashboard-title{display: block; width: 100%; text-align: center; font-size: 17px; color: #b7bf10; padding: 3px 6px; cursor: pointer; border-radius: 8px; margin-bottom: 10px;}
+.dashboard-title:hover{background-color:#4D4E50;}
+.dashboard-title .dashboard-icon{vertical-align:middle; width:16px; height:auto; padding-right:6px;}
 
 /*----------------------------------------------*/
 /* Footer */
